@@ -17,4 +17,9 @@
 		</PackageReference>
 	</ItemGroup>
 
+	<ItemGroup>
+	  <Folder Include="Abstraction\" />
+	  <Folder Include="Repos\" />
+	</ItemGroup>
+
 </Project>
