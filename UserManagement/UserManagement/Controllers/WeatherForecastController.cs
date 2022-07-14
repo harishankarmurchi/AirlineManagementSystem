@@ -36,7 +36,7 @@ namespace UserManagement.Controllers
         }
 
         [HttpGet]
-        [Authorize(Roles ="user")]
+        [Authorize(Roles ="Admin")]
         public IEnumerable<WeatherForecast> Get()
         {
             var rng = new Random();
